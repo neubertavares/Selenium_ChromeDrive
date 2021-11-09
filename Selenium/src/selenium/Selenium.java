@@ -14,7 +14,7 @@ public class Selenium {
         File file = new File("C:\\Users\\eMotion\\Desktop\\chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
         WebDriver driver = new ChromeDriver();
-        driver.get("hTp:aluno.unibh.br");
+        driver.get("http:aluno.unibh.br");
         String i = driver.getCurrentUrl();
         System.out.println(i);
         driver.close();
